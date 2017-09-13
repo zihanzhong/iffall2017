@@ -1,0 +1,71 @@
+body {
+	font-family: open sans;
+	background-color: #dee8e6
+	font-size:24px;
+}
+.p .subtitle
+{
+	font-size: 14px;
+}
+
+code
+{
+	font-weight: normal;
+	color: gray;
+}
+h1
+{
+	font-size: 40px
+}
+h2
+{
+	font-weight: bold;
+
+	color: lightgray;
+}
+.font-weight .normal
+{
+	font-weight: normal;
+}
+.font-weight .bold
+{
+	font-weight: bold;
+}
+.letter-spacing .normal
+{
+
+	letter-spacing:normal;
+
+}
+.letter-spacing .emd
+{
+	letter-spacing:0.3em;
+}
+.letter-spacing .em
+{
+	letter-spacing:-.06em;
+}
+.text-decoration .none {
+	text-decoration: none;
+}
+.text-decoration .underline {
+	text-decoration: underline;
+}
+.text-decoration .overline {
+	text-decoration: overline;
+}
+.text-decoration .line-through {
+	text-decoration: line-through;
+}
+.text-transform .capitalize {
+	text-transform: capitalize;
+}
+.text-transform .none {
+	text-transform: none;
+}
+.text-transform .lowercase {
+	text-transform: lowercase;
+}
+.text-transform .uppercase {
+	text-transform: uppercase;
+}
