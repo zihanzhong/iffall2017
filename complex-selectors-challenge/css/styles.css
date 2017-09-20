@@ -34,10 +34,10 @@ img {
 	font-size: 0.8rem
 }
 div:last-of-type{
-	font-weight: bold;
+	font-style:italic;
 }
 div:first-of-type{
-	font-style: italic;
+	font-weight:bold;
 }
 .seasons>ul>li:nth-child(7):before {
    content: "*" 
