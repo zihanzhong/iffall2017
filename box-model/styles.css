@@ -1,0 +1,151 @@
+body{
+	font-family: 'Archivo Narrow', sans-serif;
+}
+h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 78px;
+    letter-spacing: 0.75px;
+}
+h3{
+	margin-top: 3px;
+	font-size: 30px;
+}
+
+#intro{
+	 padding-top:157px;
+	 text-align: center;
+	 padding-bottom:205px;
+	 max-height:482px;
+	 background-image: url("file:///Users/apple/Downloads/alejandra-coral-63376.jpg");
+	 background-size: cover;
+	 color: white;
+	}
+.section2{
+	box-sizing: border-box;
+    height: 616px;
+	text-align: center;
+	background-color: white;
+	color: #704b0c
+}
+p{
+    text-align: left;
+	margin: 0;
+	font-size: 19px;
+	letter-spacing: -0.35px;
+	margin-bottom: -5px;
+}
+#img1{
+	width: 400px;
+	height: 300px;
+	float: right;
+}
+.context1{
+  box-sizing: border-box;
+  width: 960px;
+  height: 500px;
+  margin: auto;
+
+}
+h2{
+	text-align: center;
+    font-size: 40px;
+    margin-top: 0px;
+    padding-top: 10px;
+}
+.section3{
+	 box-sizing: border-box;
+	 height: 670px;
+	 width: 100%;
+	 background-color: lightgray;
+	 padding-top: 32px;
+}
+
+
+.context2{
+  width: 960px;
+  height: 400px;
+  margin: auto;
+  margin-top: 2px;}
+h4 {
+  font-size: 21px;
+  margin: 0;
+  padding-top: 8px;
+}
+.container2{
+  width: 960px;
+  height: 400px;
+  margin: auto;
+  margin-top: 2px;
+}
+.left {
+  float: left;
+  width: 440px;
+  margin-right: 40px;
+}
+.right {
+  float: left;
+  width: 440px;
+}
+.container2 p{
+  margin: 0;
+  padding: 10px 0 43px 0;
+  letter-spacing: 0.08px;
+  font-size: 18px;
+  line-height: 1.2em;
+}
+.container2 img{
+  float: left;
+  width: 200px;
+  height: 150px;
+  margin-right: 13px;
+}
+.section4 {
+  box-sizing: border-box;
+  text-align: center;
+  height: 420px;
+  width: 100%;
+  background-color: black;
+  color:white;
+  padding-top: 40px;
+}
+
+.section4 p{
+  width: 715px;
+  height: 150px;
+  margin: auto;
+  letter-spacing: 0.2px;
+  font-size: 27px;
+  line-height: 1.15em;
+}
+
+
+
+.section5{
+  box-sizing: border-box;
+  height: 98px;
+  width: 100%;
+  background-color:black;
+  color: white;
+}
+
+.container5 {
+  width: 965px;
+  height: 40px;
+  margin: auto;
+  padding: 41px 0;
+}
+
+.container5 p {
+  font-size: 18px;
+  padding-left: 3px;
+}
+
+.icons {
+  float: right;
+}
+
+i{
+  padding-right: 2px;
+  margin-top: -6px;
+}
