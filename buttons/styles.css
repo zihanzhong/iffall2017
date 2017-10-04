@@ -1,0 +1,536 @@
+body {
+				color: #333;
+				font-family: 'Open Sans', sans-serif;
+				margin: 0;
+				padding: 0;
+			}
+
+			#main_content {
+				margin: 40px;
+			}
+
+			h1 {
+			 	font-size: 30px;
+			 	margin-bottom: 40px;
+			}
+
+			.button_container {
+				border: 1px solid #ddd;
+				margin: 0 10px 10px 0;
+				padding: 20px;
+				width: 300px;
+				height: 300px;
+				float: left;
+				overflow: hidden;
+				box-sizing: border-box;
+				text-align: center;
+			}
+
+			a#btn_spotify {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 25px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 10px 40px 0 40px;
+				background-color: #2ebd59;
+				border: 2px solid #2ebd59;
+				color: #fff;
+				font-size: 20px;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_spotify:hover {
+				background-color: #fff;
+				border: 2px solid #000;
+				color: #000;
+			}
+
+
+			a#btn_twitter {
+				display: inline-block;
+				height: 40px;
+				box-sizing: border-box;
+				border-radius: 4px;
+				margin: auto;
+				margin-top: 105px;
+				padding: 10px 30px 0 30px;
+				background-color: #56cdf1;
+				color: #fff;
+				font-size: 18px;
+				font-family: 'Arial', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_twitter:hover {
+				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+				background: #2ebfec; /* Old browsers */
+				background: -moz-linear-gradient(top,  #2ebfec 0%, #28a5cb 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2ebfec), color-stop(100%,#28a5cb)); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* IE10+ */
+				background: linear-gradient(to bottom,  #2ebfec 0%,#28a5cb 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=0 ); /* IE6-9 */
+			}
+
+
+			a#btn_amazon {
+				display: block;
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 75px;
+				padding-top: 8px;
+				background-color: #232f3e;
+				color: #fff;
+				text-align: center;
+				font-size: 60px;
+			}
+
+			a#btn_amazon:hover {
+				background-color: #fc9a18;
+			}
+
+
+			a#btn_indiegogo {
+				display: inline-block;
+				margin:auto;
+				margin-top: 100px;
+				padding: 8px 16px;
+				background-color: #fff;
+				color: #eb1478;
+				font-family: 'Ubuntu', sans-serif;
+				font-size: 30px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+				letter-spacing: -2px;
+			}
+
+			a#btn_indiegogo:hover {
+				color: #fff;
+				background-color: #eb1478;
+			}
+      a#btn_coca {
+        display: inline-block;
+        margin-top: 60px;
+        -webkit-border-radius: 60;
+        -moz-border-radius: 60;
+        border-radius: 60px;
+        -webkit-box-shadow: 0px 1px 30px #2e3030;
+        -moz-box-shadow: 0px 1px 30px #2e3030;
+        box-shadow: 0px 1px 30px #2e3030;
+        font-family: Arial;
+        color: #ffffff;
+        font-size: 26px;
+        background: #d93434;
+        padding: 18px 19px 18px 20px;
+        text-decoration: none;
+        text-align: center;
+      }
+      a#btn_coca:hover {
+      background: #000000;
+      text-decoration: none;
+      }
+			}
+			a#btn_apple {
+			  display: block;
+			  margin: auto;
+        padding-top: 80px;
+			}
+			a#btn_apple:hover{
+			  color: #e7cee8;
+			}
+
+			a#btn_ibm{
+			  display: block;
+			  margin:auto;
+			  margin-top: 80px;
+			  color: black;
+			  width: 100px;
+			  height: 150px;
+			}
+			#ibm{
+			width: 130px;
+    		height: 60px;
+			}
+			a#btn_ibm:hover {
+			color: black;
+			background-color: blue;
+      width: 132px;
+      height: 64px;
+			}
+      a#btn_lyft{
+        display: block;
+        width: 140px;
+        height: 40px;
+        border-radius: 90px;
+        margin: auto;
+        margin-top: 105px;
+        padding: 5px 0 9px 0;
+        font-family: 'Leckerli One', sans-serif;
+        text-decoration: none;
+        text-transform: lowercase;
+        font-weight: 700;
+        font-size: 35px;
+        letter-spacing: -0.02em;
+        background-color: hotpink;
+        color: purple;
+      }
+      
+      a#btn_lyft:hover{
+        transform: rotate(360deg);
+        transition: 0.5s;
+        background: linear-gradient(pink, salmon);
+      }
+      a#btn_nerf{
+        padding-top: 60px;
+        display: block;
+        width: 150px;
+        height: 30px;
+        margin: auto;
+        text-align: center;
+        margin-top: 30px;
+      }
+      a#btn_nerf:hover{
+        background-color: orange;
+        border-color: brown;
+        background-size: 50px 70px
+      }
+      a#btn_harley-davidson{
+      display: block;
+      width: 200px;
+      margin: auto;
+      margin-top: 107px;
+      padding: 9px 3px;
+      font-family: 'Oswald', sans-serif;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 27px;
+      letter-spacing: -0.03em;
+      line-height: 1em;
+      color: orange;
+      border: 3px solid brown;
+      }
+      a#btn_harley-davidson:hover {
+      background: brown;
+      }
+      a#btn_michael-kors{
+      margin-top: 50px;
+      height: 100px;
+      width: 130px;
+      }
+      img#mk{
+        height: 120px;
+        width: 150px;
+      }
+      img#mk:hover{
+        -webkit-filter: invert(100%); /* Safari */
+        filter: invert(100%);
+      }
+      a#btn_ideo{
+      display: block;
+      width: 140px;
+      height: auto;
+      margin: auto;
+      margin-top: 95px;
+      font-family: 'Geo', sans-serif;
+      text-decoration: none;
+      font-weight: 400;
+      font-size: 46px;
+      border: 2px solid peachpuff;
+      color: darkmagenta;
+      }
+      a#btn_ideo:hover {
+      color: skyblue;
+      }
+      a#btn_sardella{
+      color: #ffffff;
+      font-size: 20px;
+      padding: 10px 20px 10px 20px;
+      display: inline-block;
+      margin: auto;
+      font-family: 'Indie Flower', cursive;
+      font-size: 25px;
+      margin-top: 110px;
+      background: #34d9d1;
+      background-image: -webkit-linear-gradient(top, #34d9d1, #2980b9);
+      background-image: -moz-linear-gradient(top, #34d9d1, #2980b9);
+      background-image: -ms-linear-gradient(top, #34d9d1, #2980b9);
+      background-image: -o-linear-gradient(top, #34d9d1, #2980b9);
+      background-image: linear-gradient(to bottom, #34d9d1, #2980b9);
+      -webkit-border-radius: 30;
+      -moz-border-radius: 30;
+      border-radius: 30px;
+      -webkit-box-shadow: 0px 1px 3px #29e6d6;
+      -moz-box-shadow: 0px 1px 3px #29e6d6;
+      box-shadow: 0px 1px 3px #29e6d6;
+      text-decoration: none;
+    }
+
+    a#btn_sardella:hover{
+      background: #d63cfc;
+      background-image: -webkit-linear-gradient(top, #d63cfc, #8f34d9);
+      background-image: -moz-linear-gradient(top, #d63cfc, #8f34d9);
+      background-image: -ms-linear-gradient(top, #d63cfc, #8f34d9);
+      background-image: -o-linear-gradient(top, #d63cfc, #8f34d9);
+      background-image: linear-gradient(to bottom, #d63cfc, #8f34d9);
+      text-decoration: none;
+      }
+    a#btn_facebook {
+        padding-top: 80px;
+        display: block;
+        max-width: 120px;
+        max-height: 80px;
+        margin: 80px 60px 20px 70px;
+        background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Facebook_New_Logo_%282015%29.svg/1200px-Facebook_New_Logo_%282015%29.svg.png);
+        background-size: 120px 97px;
+      }
+    a#btn_facebook:hover{
+      background-image: url(http://cxsocial.clarabridge.com/wp-content/uploads/2015/03/facebook-thumb.png);
+      display: block;
+        }
+    a#btn_instagram {
+      font-family: 'Pacifico', cursive;
+      background: #f523b6;
+      background-image: -webkit-linear-gradient(top, #f523b6, #f0f060);
+      background-image: -moz-linear-gradient(top, #f523b6, #f0f060);
+      background-image: -ms-linear-gradient(top, #f523b6, #f0f060);
+      background-image: -o-linear-gradient(top, #f523b6, #f0f060);
+      background-image: linear-gradient(to bottom, #f523b6, #f0f060);
+      -webkit-border-radius: 32;
+      -moz-border-radius: 32;
+      border-radius: 32px;
+      text-shadow: 3px 1px 3px #666666;
+      display: block;
+      width: 200px;
+      margin: auto;
+      margin-top: 107px;
+      color: #5048bd;
+      font-size: 16px;
+      padding: 17px;
+      text-transform: uppercase;
+      text-decoration: none;
+       }
+      a#btn_instagram:hover {
+      background: #ffffff;}
+    a#btn_cartoonnetwork {
+        display: block;
+        margin: auto;
+        box-sizing: border-box;
+        padding-top: 60px;
+    }
+    a#btn_cartoonnetwork:hover{
+        -webkit-filter:invert(100%);
+      }
+    a#btn_nike{
+      display: block;
+        margin: auto;
+        box-sizing: border-box;
+        padding-top: 80px;
+    }
+    a#btn_nike:hover {
+      filter:blur(5px);
+    }
+    a#btn_newyorker {
+      display: block;
+        margin: auto;
+        box-sizing: border-box;
+        padding-top: 90px;
+    }
+    a#btn_newyorker:hover {
+      animation: shake 0.5s; 
+      animation-iteration-count: infinite; 
+    }
+    a#btn_pottermore {
+    display: block;
+    width: 180px;
+    height: 100px;
+    margin: auto;
+    margin-top: 70px;
+    background-image: url(https://vignette1.wikia.nocookie.net/harrypotter/images/d/d8/Pottermore2.png/revision/latest?cb=20150923181540);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+    a#btn_pottermore:hover {
+      background-image: url(https://images.pottermore.com/bxd3o8b291gf/6Mn6RZf3RmqGAsqyao62ka/fbae3f5670f9dc6ec7d7215f9cb4555e/Pottermore_BrandPhotography_RedFeathers_RGB_PM.jpg?w=1024);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    a#btn_samsung {
+      font-family: 'Abril Fatface', cursive;
+      display: block;
+      width: 200px;
+      margin: auto;
+      font-size: 26px;
+      padding-top: 100px;
+      text-transform: uppercase;
+      text-decoration: none;
+      }
+    a#btn_samsung:hover {
+      border: solid #4e67cc 5px;
+      border-radius: 28px;
+      background: #493cfc;
+    }
+    a#btn_tonight-show {
+      background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/The_Tonight_Show_Starring_Jimmy_Fallon.svg/2000px-The_Tonight_Show_Starring_Jimmy_Fallon.svg.png);
+    display: block;
+    width: 181px;
+    height: 181px;
+    margin: auto;
+    margin-top: 37px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+    a#btn_tonight-show:hover {
+      background-image: url(https://www.nbcstore.com/media/catalog/product/cache/1/image/1000x/040ec09b1e35df139433887a97daa66f/t/s/tsjf_logo_travelmug_rollover.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    a#btn_ofa {
+      background-image: url(https://pbs.twimg.com/profile_images/877919166426226691/Qb5TXlhX.jpg);
+    display: block;
+    width: 181px;
+    height: 181px;
+    margin: auto;
+    margin-top: 37px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+    a#btn_ofa:hover {
+      background-image: url(http://hartleymiller.com/images/ofa-logo5.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    a#btn_botanical-garden {
+      background-image: url(http://www.phsdaffodils.com/wp-content/uploads/2017/05/MBG_Logo_600x400.jpg);
+    display: block;
+    width: 181px;
+    height: 181px;
+    margin: auto;
+    margin-top: 37px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+    a#btn_botanical-garden:hover {
+      background-image: url(http://www.missouribotanicalgarden.org/Portals/0/Gardens/Climatron/Images/CLM_CHI_lily%20pools_horz_adams.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    a#btn_tesla {
+      background-image: url(http://www.carlogos.org/logo/Tesla-logo-2003-2500x2500.png);
+    display: block;
+    width: 181px;
+    height: 181px;
+    margin: auto;
+    margin-top: 37px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+    a#btn_tesla:hover {
+      background-image: url(http://www.carlogos.org/logo/Tesla-emblem-2003-1366x768.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    a#btn_color-run {
+      background-image: url(https://www.frugalcouponliving.com/wp-content/uploads/2015/08/the-color-run-logo.png);
+    display: block;
+    width: 181px;
+    height: 181px;
+    margin: auto;
+    margin-top: 37px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+    a#btn_color-run:hover {
+      background-image: url(http://www.middletownymca.org/sites/default/files/images/SOFY5Klogo.jpg);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    a#btn_exploding-kittens {
+      background-image: url(http://is5.mzstatic.com/image/thumb/Purple111/v4/df/d0/99/dfd09963-e015-41ef-70fd-088aed17c885/source/1200x630bb.jpg);
+    display: block;
+    width: 181px;
+    height: 181px;
+    margin: auto;
+    margin-top: 37px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+    a#btn_exploding-kittens:hover {
+      background-image: url(https://randomdesignsbysylvia.files.wordpress.com/2015/03/exploding_kitten_goal_cartoon-clear.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    a#btn_st-jude {
+      background-image: url(https://s3.amazonaws.com/pq-imgs/images/quizzes/st_jude_childrens_-5017.jpg);
+    display: block;
+    width: 181px;
+    height: 181px;
+    margin: auto;
+    margin-top: 37px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+    a#btn_st-jude:hover {
+      background-image: url(http://wbkr.com/files/2016/03/Mabry.jpg?w=630&h=420&zc=1&s=0&a=t&q=89);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    a#btn_electrabike {
+      background-image: url(https://static1.squarespace.com/static/522386b7e4b0db0027e9d27d/t/5303e27ae4b0cca91088b848/1392763516177/Electra_logo.png);
+    display: block;
+    width: 181px;
+    height: 181px;
+    margin: auto;
+    margin-top: 37px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+    a#btn_electrabike:hover {
+      background-image: url(https://www.bikeexchange.com.au/dbimages/brand/fn_large/29/Electra_Logo.jpg);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    a#btn_old-navy {
+      background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Old_Navy_Logo.svg/1200px-Old_Navy_Logo.svg.png);
+    display: block;
+    width: 181px;
+    height: 181px;
+    margin: auto;
+    margin-top: 37px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+    a#btn_old-navy:hover {
+      background-image: url(https://res.cloudinary.com/goodsearch/image/upload/v1439940283/hi_resolution_merchant_logos/old-navy_coupons.jpg);
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
