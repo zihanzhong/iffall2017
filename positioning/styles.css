@@ -1,0 +1,62 @@
+		body {
+		  width: 960px;
+		  margin: 2em auto;
+		  font-family: Arial, sans-serif;
+		  font-size: 16px;
+		  line-height: 1.4;
+		  z-index: -1
+		}
+
+		h1 {
+		  font-size: 2em;
+		  font-weight: normal;
+		  margin: 0 0 1rem 0;
+		}
+		section {
+		  padding: 2rem;
+		  border: 1px solid #ccc;
+		  margin: 4rem 0;
+		  background-color: #fff;
+		  position: relative;
+		}
+
+		aside {
+		  font-size: 24px;
+		  font-family: Georgia, Serif;
+		  font-style: italic;
+		  background-color: #aaa;
+		  color: #fff;
+		  padding: 1.5rem;
+		  width: 15rem;
+		}
+		.one {
+			float: right;
+			right: 10px;
+			top: 10px;
+		}
+		#two{
+			position: absolute;
+		    left: 703px;
+		    margin-top: 73px;
+		}
+		#three {
+		  background-color: green;
+		  position: fixed;
+		  top: 0;
+		  right: 0;
+		  z-index: 3;
+		}
+		#four {
+		  background-color: red;
+		  position: absolute;
+		  left: 336px;
+		  top: 225px;
+		  z-index: 2;
+		}
+		#five{
+		  background-color: black;
+		  position: absolute;
+		  left: 346px;
+		  top: 235px;
+		  z-index: 1;
+		}
