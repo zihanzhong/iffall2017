@@ -58,6 +58,16 @@ p{
     font-size: 29px;
     background-color: #b991c6;
 }
+#a:hover{
+    filter:invert(90);
+}
+#b:hover{
+    filter: grayscale(100);
+}
+#c:hover{
+    filter:invert(90);
+}
+
 #youtube{
 	bottom: 10px;
     position: fixed;
