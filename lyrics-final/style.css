@@ -1,0 +1,161 @@
+body{
+	background-color: #653d72;
+}
+h1{
+ffont-family: 'Oswald', sans-serif;
+    font-size: 212px;
+    top: -172px;
+    left: 821px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    color: #98c07d;
+}
+h2{
+    font-family: 'Oswald', sans-serif;
+    float: left;
+    font-size: 74px;
+    margin-top: 5px;
+    margin-left: 413px;
+    position: absolute;
+    box-sizing: border-box;
+    color: white;
+}
+i{
+    color: white;
+    opacity: 0.6; 
+}
+hr{
+	clear: both;
+}
+#title {
+	height: 100px
+}
+#im1{
+	    width: 1064px;
+    display: block;
+    margin-top: 185px;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 29%;
+}
+p{
+	font-family: 'Raleway', sans-serif;
+}
+#punch{
+	font-family: 'Pacifico', cursive;
+	font-synthesis: 40px;
+    font-size: 50px;
+}
+#li{
+	    margin-top: 942px;
+    width: 1225px;
+    text-align: left;
+    position: absolute;
+    margin-left: auto;
+    line-height: 143%;
+    margin-right: auto;
+    left: 42%;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+    font-size: 36px;
+}
+#a:hover{
+    filter:hue-rotate(90deg);
+}
+#b:hover{
+    filter: saturate(8);
+}
+#c:hover{
+    filter:hue-rotate(50deg);
+}
+
+#youtube{
+	bottom: 10px;
+    position: fixed;
+    width: 40px;
+}
+#img2{
+    width: 296px;}
+
+.strawberries span {
+    display: inline-block;
+    width:80px;
+    height: 81px;
+    margin: -280px 60px 54px  -34px;
+    background:url("stra.png");
+    background-origin:border-box;
+    background-size: 100%;
+    -webkit-animation: strawberries 12s infinite  cubic-bezier(0.35,0.45,0.39,0.29);
+    -moz-animation: strawberries 12s infinite  cubic-bezier(0.35,0.45,0.39,0.29);
+}
+.strawberries span:nth-child(5n+5) {
+
+    -webkit-animation-delay: 1.3s;
+    -moz-animation-delay: 1.3s;
+}
+.strawberries span:nth-child(3n+2) {
+
+    -webkit-animation-delay: 1.5s;
+    -moz-animation-delay: 1.5s;
+}
+.strawberries span:nth-child(2n+5) {
+
+    -webkit-animation-delay: 1.7s;
+    -moz-animation-delay: 1.7s;
+}
+
+.strawberries span:nth-child(3n+10) {
+
+    -webkit-animation-delay: 2.7s;
+    -moz-animation-delay: 2.7s;
+}
+.strawberries span:nth-child(7n+2) {
+
+    -webkit-animation-delay: 3.5s;
+    -moz-animation-delay: 3.5s;
+}
+.strawberries span:nth-child(4n+5) {
+
+    -webkit-animation-delay: 5.5s;
+    -moz-animation-delay: 5.5s;
+}
+.strawberries span:nth-child(3n+7) {
+
+    -webkit-animation-delay: 8s;
+    -moz-animation-delay: 8s;
+}
+@-webkit-keyframes strawberries {
+  0% {
+    opacity: 1;
+
+    -webkit-transform: translate(0, 0px) rotateZ(0deg);
+  }
+  75% {
+    opacity: 1;
+
+    -webkit-transform: translate(100px, 600px) rotateZ(270deg); 
+  }
+  100% {
+    opacity: 0;
+
+    -webkit-transform: translate(150px, 800px) rotateZ(360deg);
+  }
+}
+@-moz-keyframes strawberries {
+  0% {
+    opacity: 1;
+    
+    -webkit-transform: translate(0, 0px) rotateZ(0deg);
+  }
+  75% {
+    opacity: 1;
+   
+    -webkit-transform: translate(100px, 600px) rotateZ(270deg); 
+  }
+  100% {
+    opacity: 0;
+    
+    -webkit-transform: translate(150px, 800px) rotateZ(360deg);}
+
