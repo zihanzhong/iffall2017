@@ -7,7 +7,6 @@ body {
 }
 
 #fixed-size-grid-items aside {
-  color: #077bca;
   width: 170px;
   margin: 10px;
   font-size: 0.8rem;
@@ -27,7 +26,6 @@ body {
 }
 
 #stretchable-grid-items aside {
-  color: #077bca;
   font-size: 0.8rem;
   margin: 10%;
 }
