@@ -1,0 +1,19 @@
+body {
+  text-align: center;
+}
+
+div {
+  margin: 30px 0;
+}
+
+div.picture-com img{
+  display: block;
+  width: 90%;
+  margin: auto;
+}
+
+div.picture-mobile img {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
