@@ -1,0 +1,87 @@
+h1{
+	font-size: 90px;
+	font-weight: 100;
+	color: white;
+	margin-top: 170px;
+	
+}
+h2{
+    box-sizing: border-box;
+    font-size: 70px;
+    color: white;
+    text-align: left;
+    font-stretch: condensed;
+    font-weight: normal;
+    margin-left: 15px;
+}
+body{
+	font-family:'Futura',Trebuchet MS,Arial,sans-serif;
+	text-align: center;
+	background-image: url("img/star-background.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: #2a2237;
+	overflow:auto;
+}
+a{
+	font-weight: 100;
+    font-stretch: condensed;
+    text-decoration: none;
+    margin: 15px;
+    color: white;
+}
+.button_container{
+	margin-top: 100px;
+}
+.button_container #btn:hover{
+	color: #f0d0f0;
+	transition: 0.6s;
+}
+p{
+    position: absolute;
+    color: white;
+    display: inline-block;
+    width: 30%;
+    text-align: left;
+    font-weight: lighter;
+    padding-top: 184px;
+    top: 44%;
+    left: 17%;
+    font-size: 12px;
+}
+
+.button_container_2 {
+    top: 13%;
+    display: inline-block;
+    position: absolute;
+    left: 16%;
+}
+.button_container_2 #btn:hover{
+	color: #f0d0f0;
+	transition: 0.6s;
+}
+#man {
+    width: 24%;
+    left: 60%;
+    display: block;
+    padding-top: 136px;
+    padding-bottom: 220px;
+    position: absolute;
+    top: 46%;
+}
+.bottom{
+	height: 20px;
+	display: inline-block;
+}
+#family {
+    width: 32%;
+    left: 54%;
+    display: block;
+    padding-top: 136px;
+    padding-bottom: 220px;
+    position: absolute;
+    top: 57%;
+}
+.st {
+	font-size: 97px;
+}
