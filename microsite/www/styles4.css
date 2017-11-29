@@ -1,0 +1,53 @@
+body{
+	font-family:'Futura',Trebuchet MS,Arial,sans-serif;
+	text-align: center;
+	background-image: url("img/star-background.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: #2a2237;
+	overflow:auto;
+}
+h1{
+    font-size: 90px;
+    font-weight: 100;
+    color: white;
+    margin-top: 64px;
+	}
+p {
+	position: absolute;
+    width: 50%;
+    color: white;
+    display: inline-block;
+    padding-top: 14px;
+    text-align: left;
+    font-weight: lighter;
+    font-size: 15px;
+    left: 25%;
+}
+img {
+width: 34%;
+    left: 36%;
+    padding-top: 149px;
+    padding-bottom: 220px;
+    top: 34%;
+}
+
+a{
+	font-weight: 100;
+    font-stretch: condensed;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+a#back{
+	float: left;
+    top: 49%;
+    left: 55px;
+    position: absolute;
+}
+a#next{
+	float: right;
+    top: 49%;
+    right: 55px;
+    position: absolute;
+}
