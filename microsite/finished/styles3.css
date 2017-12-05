@@ -1,0 +1,50 @@
+
+h2{
+    box-sizing: border-box;
+    font-size: 53px;
+    color: white;
+    text-align: left;
+    font-stretch: condensed;
+    font-weight: normal;
+    margin-left: 15px;
+}
+body{
+	font-family:'Futura',Trebuchet MS,Arial,sans-serif;
+	text-align: center;
+	background-image: url("img/star-background.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-color: #2a2237;
+	overflow:auto;
+}
+a{
+    font-weight: 100;
+    font-stretch: condensed;
+    text-decoration: none;
+    margin: 15px;
+    color: white;
+}
+
+.button_container_2 {
+    top: 13%;
+    display: inline-block;
+    position: absolute;
+    left: 16%;
+    z-index: 10;
+}
+.button_container_2 #btn:hover{
+	color: #f0d0f0;
+	transition: 0.6s;
+}
+.images {
+    height: 250px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+div.signs {
+    width: 900px;
+    display: inline-block;
+    margin-left: -53px;
+    vertical-align: top;
+    margin-top: 334px;
+}
